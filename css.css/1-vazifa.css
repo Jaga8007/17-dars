@@ -11,12 +11,18 @@
     background-size: cover
 }
 .conteyner{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 .navbar{
     width: 100%;
     background-color: white;
+}
+.fa-bars{
+    font-size: 25pt;
+    float: right;
+    margin-top: 20px;
+    display: none;
 }
 .left-nav{
     font-family: sans-serif;
@@ -75,22 +81,35 @@
     padding: 15px 15px;
 }
 .drop-item{
-    display: inline-block;
-    padding: 10px;
-    
+    padding: 10px;  
+    display: block; 
+    width: 160px;
+}
+.drop-item1{
+    padding: 10px;  
+    display: block; 
+    width: 240px;
+}
+.drop-item1:hover{
+    background-color: rgb(221, 219, 219);
+    transition: 1s;
+}
+.drop-item:hover{
+    background-color: rgb(221, 219, 219);
+    transition: 1s;
 }
 .nav-li:hover{
     background-color: rgb(221, 219, 219);
 }
 .nav-li:nth-child(2):hover .dropdown{
     display: block;
-    right: 385px;
+    right: 315px;
     border-radius: 2px;
 }
 .nav-li:nth-child(3):hover .dropdown{
     display: block;
     width: 240px;
-    right: 277px;
+    right: 208px;
     border-radius: 2px;
 }
 .text{
@@ -110,7 +129,140 @@
 }
 .btn{
     margin-top: 50px;
-    margin-left: 630px;
+    margin-left: 45%;
     padding: 10px 25px;
     background-color: white;
+    border: 1px solid;
+    transition: 1s;
+}
+.btn:hover{
+    background-color: rgb(214, 214, 214);
+}
+.qism1{
+    width: 100%;
+    height: 480px;
+    background-color: rgb(235, 227, 227);
+    position: relative;
+    
+}
+.rasm1{
+    width: 40%;
+    height: 300px;
+    background-image: url('./../rasm/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 85px;
+}
+.avada1{
+    width: 47%;
+    height: 300px;
+    display: inline-block;
+    margin-left: 100px;
+    
+    top: 85px;
+    
+}
+.avada{
+    display: inline-block;
+    font-size: 20pt;
+    font-family: sans-serif;
+}
+.lorem{
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #aaa
+}
+.star{
+    margin: 5px 0px;
+    font-size: 11pt;
+    color: rgb(26, 25, 25);
+    margin-bottom: 50px;
+}
+.fa-star{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.btn1{
+    text-align: center;
+    font-size: 10pt;
+    padding: 10px 20px;
+    display: block;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border: 1px solid black;
+}
+.btn1:hover{
+    color: rgb(133, 193, 250);
+    transition: 1s;
+    background-color: black;
+}
+.icon{
+    width: 100%;
+    height: 350px;
+}
+.con-icon{
+    width: 24%;
+    height: 300px;
+    padding: 10px 50px 0 50px;
+    background-color: white;
+    display: inline-block;
+}
+.icon1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 50px 50px 15px 50px;
+}
+.icon1:hover{
+    background-color: white;
+    border: 1px solid black;
+}
+.fa-laptop{
+   width: 50px;
+   height: 50px;
+   color: white;
+   margin: 25px 25px;
+}
+.fa-laptop:hover{
+    color: black;
+}
+.fa-eye{
+    width: 50px;
+   height: 50px;
+   color: white;
+   margin: 25px 25px;
+}
+.fa-eye:hover{
+    color: black;
+}
+.fa-thumbs-up{
+    width: 50px;
+   height: 50px;
+   color: white;
+   margin: 25px 25px;
+}
+.fa-thumbs-up:hover{
+    color: black;
+}
+.fa-address-card{
+    width: 50px;
+    height: 50px;
+    color: white;
+    margin: 25px 25px;
+}
+.fa-address-card:hover{
+    color: black;
+}
+.res{
+    font-size: 10pt;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.cla{
+    color: #aaa;
+    text-align: center;
+    margin-top: 10px;
 }
