@@ -2,6 +2,28 @@
     .qism1{
         height: 750px;
     }
+    .icon{
+        height: 170vh;
+    }
+    .foto{
+        height: 180vh;
+    }
+    .Oliver{
+        font-size: 12pt;
+    }
+    .photo1{
+        display: inline-block;
+        width: 40%;
+        margin-right: 40px;
+    }
+    .photo2{
+        display: inline-block;
+        width: 40%;
+    }
+    .photo3{
+        display: inline-block;
+        width: 48%;
+    }
     .rasm1{
         width: 70%;
         margin: 50px 130px;
